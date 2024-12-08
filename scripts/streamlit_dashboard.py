@@ -119,4 +119,4 @@ else:
 
 # Sidebar footer
 st.sidebar.markdown("---")
-st.sidebar.write("Developed by [Your Name]")
+st.sidebar.write("Developed by Jenber L.")
