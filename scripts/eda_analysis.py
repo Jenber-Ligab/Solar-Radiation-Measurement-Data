@@ -6,7 +6,7 @@ import seaborn as sns
 from scipy.stats import zscore
 
 # Set folder paths
-base_dir = "Solar-Radiation-Measurement-Data"
+base_dir = "Raw&Processed-Data"
 data_dir = os.path.join(base_dir, "data")
 raw_data_dir = os.path.join(base_dir, "data", "raw")
 #raw_data_dir = os.path.join(data_dir, "raw")
@@ -14,7 +14,7 @@ processed_data_dir = os.path.join(data_dir, "processed")
 analysis_dir = os.path.join(base_dir, "analysis")
 plots_dir = os.path.join(analysis_dir, "plots")
 summary_dir = os.path.join(analysis_dir, "summary")
-results_dir = "results"
+results_dir = os.path.join(base_dir, "results")
 
 # Create directories if they don't exist
 for folder in [data_dir, raw_data_dir, processed_data_dir, analysis_dir, plots_dir, summary_dir, results_dir]:
